@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/levelset-task/static/css/main.ccf12180.css",
+    "main.js": "/levelset-task/static/js/main.7e6e396a.js",
+    "index.html": "/levelset-task/index.html",
+    "main.ccf12180.css.map": "/levelset-task/static/css/main.ccf12180.css.map",
+    "main.7e6e396a.js.map": "/levelset-task/static/js/main.7e6e396a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccf12180.css",
+    "static/js/main.7e6e396a.js"
+  ]
+}
