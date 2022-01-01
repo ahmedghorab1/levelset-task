@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import DisplayArea from "./components/DisplayArea/DisplayArea";
+import SelectionMenu from "./components/SelectionMenu/SelectionMenu";
+import { Context } from "./context";
+import "./App.scss";
+import "reactjs-popup/dist/index.css";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Context {...props}>
+      <div className="App">
+        <SelectionMenu />
+        <DisplayArea />
+      </div>
+    </Context>
   );
-}
+};
 
 export default App;

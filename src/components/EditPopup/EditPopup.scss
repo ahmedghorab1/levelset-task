@@ -1,0 +1,88 @@
+.edit-popup-container {
+  background-color: white;
+  border-radius: 15px;
+  .popup-header {
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.872);
+    .close-btn-container {
+      width: 1.3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        cursor: pointer;
+      }
+      .popup-close-btn {
+        width: 100%;
+      }
+    }
+  }
+  .edit-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 10rem;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.872);
+
+    .input-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      .field-container {
+        display: flex;
+        flex-direction: column;
+        .input-area {
+          width: 12rem;
+          height: 2rem;
+          font-size: 1rem;
+          &.error {
+            border-color: red;
+          }
+        }
+        .error-msg {
+          font-size: 0.9rem;
+          color: red;
+          display: block;
+          margin-top: 0.5rem;
+        }
+      }
+      .react-datepicker-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        .react-datepicker__input-container {
+          width: unset;
+          input {
+            width: 12rem;
+            height: 2rem;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  .edit-options-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    button {
+      border: none;
+      background: transparent;
+      width: 5rem;
+      font-size: 1rem;
+      margin: 1.5rem 1rem;
+      &:first-child {
+        margin-right: 0;
+      }
+      &:last-child {
+        border-left: 1px solid black;
+        margin-left: 0;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

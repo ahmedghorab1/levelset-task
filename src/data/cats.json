@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "thumbnail_URL": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg",
+    "name": "Cat 1",
+    "bdate": "1 Jan 2012",
+    "owner_name": "John Doe",
+    "views_count": 0
+  },
+  {
+    "id": 2,
+    "thumbnail_URL": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg",
+    "name": "Cat 2",
+    "bdate": "1 Jan 2012",
+    "owner_name": "Jane Doe",
+    "views_count": 0
+  },
+  {
+    "id": 3,
+    "thumbnail_URL": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg",
+    "name": "Cat 3",
+    "bdate": "1 Jan 2012",
+    "owner_name": "Kate Debarros",
+    "views_count": 0
+  },
+  {
+    "id": 4,
+    "thumbnail_URL": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg",
+    "name": "Cat 4",
+    "bdate": "1 Jan 2012",
+    "owner_name": "John Doe",
+    "views_count": 0
+  },
+  {
+    "id": 5,
+    "thumbnail_URL": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg",
+    "name": "Cat 5",
+    "bdate": "1 Jan 2012",
+    "owner_name": "John Doe",
+    "views_count": 0
+  }
+]
