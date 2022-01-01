@@ -12,10 +12,12 @@
     flex-direction: column;
     justify-content: center;
     .cat-img-container {
-      width: 100%;
+      width: 18rem;
+      height: 25rem;
       img {
         border-radius: 15px;
         width: 100%;
+        height: 100%;
         object-fit: cover;
       }
     }
@@ -34,6 +36,13 @@
       span {
         display: block;
         margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+        &.views{
+          display: unset;
+          span{
+            display: unset;
+          }
+        }
       }
     }
   }

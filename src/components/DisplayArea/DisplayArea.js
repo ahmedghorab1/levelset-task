@@ -40,10 +40,11 @@ const DisplayArea = () => {
             </div>
             <h1>{name}</h1>
             <div className="cat-info-container">
-
-            <span>{bdate}</span>
-            <span>{owner_name}</span>
-            <span>Number of Views: {views_count + 1} times</span>
+              <span>{bdate}</span>
+              <span>{owner_name}</span>
+              <span className="views">
+                Number of Views: <span className="bold">{views_count + 1} </span> times
+              </span>
             </div>
           </div>
           <div className="options-container">
